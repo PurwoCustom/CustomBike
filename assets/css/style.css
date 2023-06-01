@@ -1,0 +1,103 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300;400;500;600&display=swap');
+
+/* Base Styling */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'K2D', sans-serif;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 91px 40px 91px;
+}
+
+.card-vote-container {
+    background-color: #454545;
+    border-radius: 30px;
+    padding: 20px 30px;
+    width: 429px;
+}
+
+.card-title {
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sub-card {
+    color: white;
+    height: 256px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.vote-text {
+    background-color: #F0F0F0;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-weight: 500;
+    color: #454545;
+    height: 245px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.vote-button {
+    background-color: #0085FF;
+    border-radius: 30px;
+    padding: 12px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    font-size: 18pt;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+
+.vote-button:hover {
+    cursor: pointer;
+    background-color: #69B4FF;
+}
+
+.center-title-container {
+    position: relative;
+}
+
+.title-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.custom-title {
+    font-weight: 500;
+    font-size: 30pt;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.blue-custom {
+    color: #0085FF;
+}
+
+.sub-title {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.coming {
+    color: #0085FF;
+    font-weight: 500;
+    text-align: center;
+}

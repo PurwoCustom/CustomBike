@@ -6,6 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    outline: red solid 1px;
 }
 
 body {
@@ -15,15 +16,16 @@ body {
 
 .hero-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 40px 91px 40px 91px;
+    grid-template-rows: 1fr 2fr;
+    /* padding: 40px 91px 40px 91px; */
 }
 
 .card-vote-container {
     background-color: #454545;
     border-radius: 30px;
     padding: 20px 30px;
-    width: 429px;
+    /* width: 429px; */
+    margin: 16px;
 }
 
 .card-title {
@@ -78,6 +80,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 230px;
 }
 
 .custom-title {
@@ -109,8 +112,42 @@ body {
     text-align: center;
 }
 
+/* Selector ID */
+
+#title-desktop {
+    display: none;
+}
+
 /* Breakpoints */
 
-@media only screen and (max-width: 620px){
-    
+@media only screen and (min-width: 768px) {
+    .hero-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding: 40px 91px 40px 91px;
+    }
+
+    .card-vote-container {
+        width: 429px;
+    }
+
+    .sub-card {
+        height: 256px;
+    }
+
+    .vote-text {
+        height: 245px;
+    }
+
+    .title-container {
+        width: 230px;
+    }
+
+    #title-desktop {
+        display: block;
+    }
+
+    #title-mobile {
+        display: none;
+    }
 }

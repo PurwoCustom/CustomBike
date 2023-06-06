@@ -15,7 +15,7 @@ body {
 
 .hero-container {
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 100vh auto;
     /* padding: 40px 91px 40px 91px; */
 }
 

@@ -140,7 +140,7 @@ body {
     display: none;
 }
 
-/* Breakpoints */
+/* Breakpoints Mobile */
 
 @media only screen and (min-width: 768px) {
     .hero-container {

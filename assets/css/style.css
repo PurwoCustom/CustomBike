@@ -102,6 +102,24 @@ body {
 }
 
 /* Carousel */
+.carousel-container {
+    background-color: #CCCCCC;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 360px;
+    padding: 10px 10px 0px 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.carousel-inner img {
+    height: 20px;
+}
 /* About */
 .about-container {
     background-color: #CCCCCC;

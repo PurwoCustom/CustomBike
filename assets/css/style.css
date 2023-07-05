@@ -407,3 +407,51 @@ body {
     color: white;
     text-decoration: none;
 }
+
+/* Custom bike */
+.hero-bike-container {
+    background-color: black;
+}
+
+.bike-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 58px;
+}
+
+.bike-container img{
+    width: 345px;
+    height: 247px;
+}
+
+.bike-title {
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+.bike-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.bike-input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.spare-card-title {
+    color: white;
+    text-align: center;
+    padding: 18px;
+}

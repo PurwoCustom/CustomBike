@@ -111,10 +111,11 @@ body {
 
 /* Feedback */
 .feedback-container {
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 8rem;
     text-align: -webkit-right;
+    z-index: 1;
 }
 
 .feedback {
@@ -134,13 +135,19 @@ body {
     margin-top: 5px;
 }
 
+.feedback-text a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Whatsapp */
 .whatsapp-container {
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 1rem;
     padding-right: 10px;
     text-align: -webkit-right;
+    z-index: 1;
 }
 
 .whatsapp {
@@ -222,6 +229,7 @@ body {
     position: absolute;
     bottom: -20px;
     left: 0;
+    width: 400px;
 }
 
 /* Galeri */
@@ -334,4 +342,63 @@ body {
 .footer-text {
     color: #0085FF;
     text-align: center;
+}
+
+/* Custom HTML */
+
+/* Hero Section */
+.hero-custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 820px;
+    background-color: black;
+    padding: 70px;
+}
+
+/* Frame Container */
+.frame-container {
+    background-color: black;
+}
+
+.frame-title {
+    color: white;
+    text-align: center;
+    padding: 46px;
+}
+
+.frame-card {
+    display: flex;
+    padding: 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card img {
+    width: 90px;
+    height: 104px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button-card {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-family: K2D;
+    font-size: 10px;
+    color: white;
+    background-color: #0085FF;
+    width: 90px;
+    cursor: pointer;
 }

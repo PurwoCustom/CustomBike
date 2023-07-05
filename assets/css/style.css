@@ -329,6 +329,10 @@ body {
     margin-right: 10px;
 }
 
+.form-input::placeholder {
+    text-align: center;
+}
+
 .form-button {
     padding: 10px 20px;
     border: none;
@@ -450,8 +454,203 @@ body {
     margin-bottom: 10px;
 }
 
+.bike-input::placeholder {
+    text-align: center;
+}
+
 .spare-card-title {
     color: white;
     text-align: center;
     padding: 18px;
+}
+
+.card-part-container {
+    display: flex;
+    background-color: black;
+    padding: 15px;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-part {
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.card-part img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-card {
+    padding: 5px 5px;
+}
+
+.card-part-title {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.harga-diskon {
+    margin-top: 5px;
+    color: #EB5757;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.harga-awal {
+    margin-top: -5px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 10px;
+}
+
+.card-part-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-part {
+    display: flex;
+    align-items: center;
+}
+
+.blue-title {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 5px;
+}
+
+.blue-color {
+    border: 1px black solid;
+    border-radius: 8px;
+    padding: 0 3px;
+    font-size: 10px;
+}
+
+.blue-circle {
+    color: #0085FF;
+}
+
+.size-part {
+    display: flex;
+    align-items: center;
+}
+
+.size-title {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-right: 5px;
+}
+
+.size-border {
+    border: 1px black solid;
+    border-radius: 8px;
+    padding: 0 3px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.icon-container {
+    margin-top: 8px;
+}
+
+/* Add Card Styling */
+.add-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 2px dashed var(--prim-blue, #0085FF);
+    width: 150px;
+    height: 297px;
+}
+
+.add-card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-title {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Pembayaran */
+.payment-container {
+    background-color: black;
+    padding: 15px;
+}
+
+.voucher-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.voucher-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-grey-4, #BDBDBD);
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    background-color: inherit;
+}
+
+.total-tunai {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.total-title {
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.total-harga {
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.bayar-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+    background-color: var(--prim-blue, #0085FF);
+    color: white;
+    margin-top: 10px;
 }

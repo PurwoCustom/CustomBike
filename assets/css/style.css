@@ -654,3 +654,15 @@ body {
     color: white;
     margin-top: 10px;
 }
+
+/* Product HTML */
+.search-bar-container {
+    
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

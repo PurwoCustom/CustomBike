@@ -496,6 +496,11 @@ body {
     font-weight: 400;
 }
 
+.card-part-title a {
+    color: black;
+    text-decoration: none;
+}
+
 .harga-diskon {
     margin-top: 5px;
     color: #EB5757;
@@ -539,6 +544,22 @@ body {
 
 .blue-circle {
     color: #0085FF;
+}
+
+.white-circle {
+    color: white;
+}
+
+.green-circle {
+    color: green;
+}
+
+.violet-circle {
+    color: violet;
+}
+
+.red-circle {
+    color: red;
 }
 
 .size-part {
@@ -720,3 +741,5 @@ body {
     gap: 45px;
     margin-bottom: 20px;
 }
+
+/* Item View */

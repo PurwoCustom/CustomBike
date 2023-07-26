@@ -677,6 +677,11 @@ body {
     margin-top: 10px;
 }
 
+.bayar-button a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Product HTML */
 .search-bar-container {
     background-color: black;
@@ -980,7 +985,16 @@ body {
     width: 100%;
     padding: 10px 15px;
     /* justify-content: space-between; */
-    /* align-self: stretch; */
+    align-self: stretch;
+}
+
+.payment-transaction {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid var(--text-light, #F0F0F0);
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .bank-nama {
@@ -1024,6 +1038,15 @@ body {
     align-self: stretch;
 }
 
+.wallet-payment-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid var(--text-light, #F0F0F0);
+    border-radius: 10px;
+    padding: 15px;
+}
+
 .wallet-nama {
     display: flex;
     font-family: Poppins;
@@ -1041,6 +1064,14 @@ body {
     gap: 5px;
 }
 
+.wallet-logo-nama {
+    margin-top: 8px;
+}
+
+.wallet-title {
+    margin-top: 5px;
+}
+
 .dana-logo {
     width: 50px;
 }
@@ -1053,6 +1084,244 @@ body {
     width: 50px;
 }
 
+.wallet-arrow {
+    color: white;
+}
+
 .order-item-container {
     padding: 20px;
 }
+
+/* Payment Details */
+.confirm-payment {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: #9E9E9E;
+}
+
+.payment-details-text {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0085FF;
+}
+
+.done-payment {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: #9E9E9E;
+}
+
+.profile-container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-payment {
+    background-color: #F0F0F0;
+    padding: 24px 23px;
+    border-radius: 1000px;
+}
+
+.profile-payment p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.payment-details-title {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.payment-number {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.virtual-title {
+    padding: 25px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.virtual-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.virtual-img {
+    width: 200px;
+}
+
+.virtual-number {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px;
+}
+
+.copy-number-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.copy-number {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid var(--prim-blue, #0085FF);
+    background-color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--prim-blue, #0085FF);
+}
+
+.time-limit {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 81px;
+}
+
+.countdown {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+.done-container {
+    display: flex;
+    margin-top: 129px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.done-countdown {
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 340px;
+    border: 2px solid var(--prim-blue, #0085FF);
+    background-color: #0085FF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.done-countdown a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Paymen Done */
+.confirm-payment-process {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: #9E9E9E;
+}
+
+.payment-process-text {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: #9E9E9E;
+}
+
+.done-process {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0085FF;
+}
+
+.profile-done-container {
+    display: flex;
+    margin-top: 128px;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-place {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+.order-about {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.order-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+}
+
+.order-details {
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 340px;
+    border: 2px solid var(--prim-blue, #0085FF);
+    background-color: #0085FF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.continue-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.continue-details {
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 340px;
+    border: 2px solid var(--prim-blue, #0085FF);
+    background-color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--prim-blue, #0085FF);
+    margin-bottom: 211px;
+}
+
+/* Breakpoints */

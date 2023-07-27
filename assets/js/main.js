@@ -13,3 +13,24 @@ burger.addEventListener('click', () => {
         menuopen = false;
     }
 });
+
+// Product Bike
+const variant = document.querySelector('#variant');
+const addCard = document.querySelector('#addCard');
+const arrowVariant = document.querySelector('#arrowVariant');
+
+addCard.addEventListener('click', () => {
+    variant.classList.add('active');
+});
+
+arrowVariant.addEventListener('click', () => {
+    variant.classList.remove('active');
+});
+
+// Show Sub Total
+const subTotal = document.querySelector('#subTotal');
+const total = document.querySelector('#total');
+
+total.addEventListener('click', () => {
+    subTotal.classList.toggle('active');
+});

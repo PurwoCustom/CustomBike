@@ -94,7 +94,7 @@
         </div>
 
         <!-- Add Card -->
-        <div class="add-card-container">
+        <div class="add-card-container" id="addCard">
             <div class="add-card-inner">
                 <i class="ri-add-circle-line add-card"></i>
                 <p class="add-title">Tambah Group Set</p>
@@ -162,9 +162,27 @@
     <section class="payment-container">
         <form action="" class="voucher-form">
             <input type="text" placeholder="Voucher" class="voucher-input">
-            <div class="total-tunai">
+            <div class="total-tunai" id="total">
                 <p class="total-title">Total tunai</p>
                 <p class="total-harga">Rp25.000.000,00 <i class="ri-arrow-up-s-line"></i></p>
+            </div>
+            <div class="sub-total" id="subTotal">
+                <div class="total-tunai">
+                    <p class="total-title sub">Total</p>
+                    <p class="total-harga sub">Rp26.000.000,00</p>
+                </div>
+                <div class="total-tunai">
+                    <p class="total-title sub">Voucher</p>
+                    <p class="total-harga sub">Rp1.000.000,00</p>
+                </div>
+                <div class="total-tunai">
+                    <p class="total-title sub">Discount product</p>
+                    <p class="total-harga sub">-Rp1.000.000,00</p>
+                </div>
+                <div class="total-tunai">
+                    <p class="total-title sub">Amount</p>
+                    <p class="total-harga sub">Rp25.000.000,00</p>
+                </div>
             </div>
             <button class="bayar-button">Bayar</button>
         </form>    
@@ -189,6 +207,179 @@
         </form>
         <p class="footer-text">&copy;2023 PurwoCustom. All rights reserved.</p>
     </footer>
+
+    <!-- Variant -->
+    <div class="variant-container" id="variant">
+        <div class="arrow-variant" id="arrowVariant">
+            <i class="ri-arrow-left-line"></i>
+        </div>
+        <div class="search-bar-container">
+            <form action="" class="search-bar">
+                <div class="search-group">
+                    <input type="text" placeholder="Silahkan Cari Disini" class="search-input">
+                    <button class="button-input"><i class="ri-search-line search-icon"></i></button>
+                </div>
+                <div class="filter-container">
+                    <i class="ri-equalizer-line filter-logo"></i>
+                    <p class="filter-text">Filter</p>
+                </div>
+            </form>
+        </div>
+        <div class="card-part-container">
+            <div class="card-part">
+                <img src="assets/img/city-bike.png" alt="">
+                <div class="main-card">
+                    <h1 class="card-part-title">Poligon Frame Concepts</h1>
+                    <p class="harga-diskon">Rp 12.000.000</p>
+                    <p class="harga-awal"><s>Rp 24.000.000</s></p>
+                    <div class="card-part-button">
+                        <div class="color-part">
+                            <p class="blue-title">Color</p>
+                            <div class="blue-color">
+                                <i class="ri-checkbox-blank-circle-fill blue-circle"></i> Blue
+                            </div>
+                        </div>
+                        <div class="size-part">
+                            <p class="size-title">| Size</p>
+                            <div class="size-border">
+                                XXL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon-container">
+                        <i class="ri-more-line more-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-part">
+                <img src="assets/img/city-bike.png" alt="">
+                <div class="main-card">
+                    <h1 class="card-part-title">Poligon Frame Concepts</h1>
+                    <p class="harga-diskon">Rp 12.000.000</p>
+                    <p class="harga-awal"><s>Rp 24.000.000</s></p>
+                    <div class="card-part-button">
+                        <div class="color-part">
+                            <p class="blue-title">Color</p>
+                            <div class="blue-color">
+                                <i class="ri-checkbox-blank-circle-fill blue-circle"></i> Blue
+                            </div>
+                        </div>
+                        <div class="size-part">
+                            <p class="size-title">| Size</p>
+                            <div class="size-border">
+                                XXL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon-container">
+                        <i class="ri-more-line more-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-part">
+                <img src="assets/img/city-bike.png" alt="">
+                <div class="main-card">
+                    <h1 class="card-part-title">Poligon Frame Concepts</h1>
+                    <p class="harga-diskon">Rp 12.000.000</p>
+                    <p class="harga-awal"><s>Rp 24.000.000</s></p>
+                    <div class="card-part-button">
+                        <div class="color-part">
+                            <p class="blue-title">Color</p>
+                            <div class="blue-color">
+                                <i class="ri-checkbox-blank-circle-fill blue-circle"></i> Blue
+                            </div>
+                        </div>
+                        <div class="size-part">
+                            <p class="size-title">| Size</p>
+                            <div class="size-border">
+                                XXL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon-container">
+                        <i class="ri-more-line more-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-part">
+                <img src="assets/img/city-bike.png" alt="">
+                <div class="main-card">
+                    <h1 class="card-part-title">Poligon Frame Concepts</h1>
+                    <p class="harga-diskon">Rp 12.000.000</p>
+                    <p class="harga-awal"><s>Rp 24.000.000</s></p>
+                    <div class="card-part-button">
+                        <div class="color-part">
+                            <p class="blue-title">Color</p>
+                            <div class="blue-color">
+                                <i class="ri-checkbox-blank-circle-fill blue-circle"></i> Blue
+                            </div>
+                        </div>
+                        <div class="size-part">
+                            <p class="size-title">| Size</p>
+                            <div class="size-border">
+                                XXL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon-container">
+                        <i class="ri-more-line more-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-part">
+                <img src="assets/img/city-bike.png" alt="">
+                <div class="main-card">
+                    <h1 class="card-part-title">Poligon Frame Concepts</h1>
+                    <p class="harga-diskon">Rp 12.000.000</p>
+                    <p class="harga-awal"><s>Rp 24.000.000</s></p>
+                    <div class="card-part-button">
+                        <div class="color-part">
+                            <p class="blue-title">Color</p>
+                            <div class="blue-color">
+                                <i class="ri-checkbox-blank-circle-fill blue-circle"></i> Blue
+                            </div>
+                        </div>
+                        <div class="size-part">
+                            <p class="size-title">| Size</p>
+                            <div class="size-border">
+                                XXL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon-container">
+                        <i class="ri-more-line more-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-part">
+                <img src="assets/img/city-bike.png" alt="">
+                <div class="main-card">
+                    <h1 class="card-part-title">Poligon Frame Concepts</h1>
+                    <p class="harga-diskon">Rp 12.000.000</p>
+                    <p class="harga-awal"><s>Rp 24.000.000</s></p>
+                    <div class="card-part-button">
+                        <div class="color-part">
+                            <p class="blue-title">Color</p>
+                            <div class="blue-color">
+                                <i class="ri-checkbox-blank-circle-fill blue-circle"></i> Blue
+                            </div>
+                        </div>
+                        <div class="size-part">
+                            <p class="size-title">| Size</p>
+                            <div class="size-border">
+                                XXL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon-container">
+                        <i class="ri-more-line more-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
     <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -1409,4 +1409,22 @@ body {
     margin-bottom: 211px;
 }
 
-/* Breakpoints */
+/* Galeri */
+.hero-galeri-title {
+    position: absolute;
+    top: 10rem;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-galeri-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
